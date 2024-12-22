@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", serif;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding: 30px 0;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+nav .logo h1 {
+    font-size: 48px;
+}
+
+nav .links ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav .links ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+nav .btn button {
+    padding: 20px 35px;
+    background-color: transparent;
+    border: 1px solid #191A23;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+nav .btn button:hover {
+    background-color: black;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.first .title {
+    width: 50%;
+    height: auto;
+}
+
+.first .title h1 {
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 76.56px;
+    margin-bottom: 30px;
+}
+
+.first .title p {
+    font-size: 20px;
+    width: 87%;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.first .title button {
+    padding: 20px 35px;
+    background-color: #191A23;
+    transition: all .3s;
+    font-size: 18px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.first .title button:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.thirth {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.thirth h1 {
+    background-color: #B9FF66;
+    padding: 7px 7px;
+    border-radius: 7px;
+    font-size: 40px;
+    font-weight: 500;
+    display: inline;
+}
+
+.thirth p {
+    width: 580px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.fourth {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.fourth .card {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 50px;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+    background-color: #f3f3f3;
+}
+
+.fourth .card .title {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.fourth .card .title .btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.fourth .card .title .text h3 {
+    background-color: #B9FF66;
+    border-radius: 7px;
+    font-weight: 500;
+    padding: 3px 7px;
+    display: inline-flex;
+    font-size: 30px;
+}
+
+.fourth .card .title .btn button {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fourth .card:nth-child(2) {
+    background-color: #B9FF66;
+}
+
+.fourth .card:nth-child(2) .title .text h3 {
+    background-color: white;
+
+}
+
+.fourth .card:nth-child(3),
+.fourth .card:nth-child(6) {
+    background-color: black;
+}
+
+.fourth .card:nth-child(3) .title .text h3 {
+    background-color: white;
+}
+
+.fourth .card:nth-child(3) .title .btn button,
+.fourth .card:nth-child(6) .title .btn button {
+    color: white;
+}
+
+.fourth .card:nth-child(5) {
+    background-color: #B9FF66;
+}
+
+.fourth .card:nth-child(5) .title .text h3 {
+    background-color: white;
+}
+
+.fifth {
+    width: 100%;
+    height: 347px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px;
+    border-radius: 45px;
+    background-color: #F3F3F3;
+    margin: 100px 0;
+}
+
+.fifth .text {
+    width: 50%;
+}
+
+.fifth .text p {
+    margin: 30px 0;
+    width: 400px;
+}
+
+.fifth .text button {
+    padding: 20px 35px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    transition: all .3s;
+}
+
+.fifth .text button:hover {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.sixth,
+.eightth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sixth h1,
+.eightth h1 {
+    background-color: #B9FF66;
+    padding: 7px 7px;
+    border-radius: 7px;
+    font-size: 40px;
+    font-weight: 500;
+    display: inline;
+}
+
+.sixth p {
+    width: 580px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.seventh {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    margin: 70px 0;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px 20px;
+}
+
+.seventh .card {
+    padding: 10px 30px;
+    border-right: 1px solid #ffffff;
+    width: 30%;
+}
+
+.seventh .card p {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.seventh .card:nth-child(3) {
+    border: none;
+}
+
+.seventh .card .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.seventh .card .btn button {
+    background-color: transparent;
+    color: #B9FF66;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.eightth p {
+    width: 300px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.tenth {
+    width: 100%;
+    height: 280px;
+    background-color: #B9FF66;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+    margin-top: 80px;
+    padding: 41px 60px;
+    margin-bottom: 30px;
+}
+
+.tenth .Consultation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tenth .Consultation .text-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tenth .Consultation .text-box h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #191A23;
+}
+
+.tenth .Consultation .text-box p {
+    font-size: 30px;
+}
+
+.tenth .line {
+    width: 100%;
+    height: 1px;
+    background-color: #191A23;
+    margin: 30px 0;
+}
+
+.eleventh {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 0 0 #191A23;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+}
+
+.eleventh .box .box-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.eleventh .box .box-text h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.eleventh .box .box-text p {
+    font-size: 30px;
+}
+
+.twelfth,
+.fourteenth,
+.sixteenth {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.twelfth h1,
+.fourteenth h1,
+.sixteenth h1 {
+    background-color: #B9FF66;
+    padding: 7px 7px;
+    border-radius: 7px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.twelfth p,
+.fourteenth p,
+.sixteenth p {
+    width: 580px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.thirteenth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.thirteenth .card {
+    width: 400px;
+    height: 331px;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 0 #191A23;
+    background-color: #FFFFFF;
+    border: 1px solid #191A23;
+    padding: 40px 35px;
+    margin-bottom: 20px;
+}
+
+.thirteenth .card .card-title {
+    display: flex;
+    align-items: last baseline;
+    position: relative;
+    gap: 30px;
+}
+
+.thirteenth .card .card-line {
+    width: 100%;
+    height: 1px;
+    background-color: #191A23;
+    margin: 30px 0;
+}
+
+.thirteenth .card .card-title .card-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.thirteenth .card .card-title .card-title-text {
+    text-align: start;
+}
+
+.thirteenth .card .card-title .card-title-text h4 {
+    font-size: 22px;
+}
+
+.thirteenth .card p {
+    font-size: 18px;
+}
+
+.thirteenth .btn button {
+    padding: 20px 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 14px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.thirteenth .btn button:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.fifteenth {
+    width: 100%;
+    background-color: #000000;
+    height: 625px;
+    border-radius: 45px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.fifteenth .fifteenth-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fifteenth .fifteenth-image-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fifteenth .fifteenth-image-bottom img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.fifteenth-image-bottom-star {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.seventeenth {
+    width: 100%;
+    height: 773px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.seventeenth form {
+    width: 50%;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.seventeenth img {
+    margin-right: -30%;
+}
+
+form .form-radio {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+form .form-radio label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form .form-radio label input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    color: #B9FF66;
+    cursor: pointer;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form .label input {
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 14px;
+    border: 1px solid #000000;
+    outline: none;
+    color: #898989;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+form label input::placeholder {
+    color: #898989;
+}
+
+form .label textarea {
+    width: 100%;
+    height: 190px;
+    padding: 18px 30px;
+    border-radius: 14px;
+    border: 1px solid #000000;
+    outline: none;
+    color: #898989;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+form button {
+    border: 1px solid #191A23;
+    padding: 20px 35px;
+    outline: none;
+    transition: all 0.3s ease;
+    border-radius: 14px;
+    background: #191A23;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FFFFFF;
+    color: #191A23;
+}
+
+footer {
+    width: 100%;
+    height: 514px;
+    background-color: #191A23;
+    color: #FFFFFF;
+    padding: 55px 60px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+footer .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+footer .footer-logo .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .footer-logo .logo img:nth-child(1) {
+    width: 25px;
+    height: 25px;
+}
+
+footer .footer-logo .links ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+footer .footer-logo .links ul li a {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+footer .footer-logo .blog {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+footer .footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-contact .contact-us {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+footer .footer-contact .contact-us h2 {
+    background-color: #B9FF66;
+    padding: 0 7px;
+    color: #000000;
+    border-radius: 7px;
+    width: 150px;
+}
+
+footer .footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 50px 0;
+}
+
+footer .footer-contact .contact-us span,
+footer .footer-contact .contact-us span a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer .footer-contact .footer-contact-form {
+    width: 634px;
+    height: 184px;
+    border-radius: 14px;
+    background-color: #292A32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .footer-contact .footer-contact-form input {
+    padding: 22px 35px;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 14px;
+    font-size: 18px;
+}
+
+footer .footer-contact .footer-contact-form input::placeholder {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+footer .footer-contact .footer-contact-form button {
+    padding: 20px 40px;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    background-color: #B9FF66;
+    color: #000000;
+    border-radius: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .footer-contact .footer-contact-form button:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+footer .footer-info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
